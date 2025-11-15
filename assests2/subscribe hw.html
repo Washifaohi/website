@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Engine Optimization (SEO) Starter Guide</title>
+    <style>
+        /* Reset default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+
+
+        body {
+            font-family: "Poppins", sans-serif;
+            line-height: 1.8;
+            background-color: #f9fafb;
+            color: #333;
+            text-align: center;
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(120deg, #007bff, #00bcd4);
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            font-weight: 600;
+        }
+
+        header p {
+            max-width: 800px;
+            margin: 15px auto 0;
+            font-size: 1.1rem;
+        }
+
+        /* Navigation Bar */
+        nav {
+            background-color: #ffffff;
+            padding: 12px 10px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: #007bff;
+            font-weight: 500;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #00bcd4;
+        }
+
+        /* Main Content */
+        main {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 20px;
+            background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.919);
+        }
+
+        section {
+            margin-bottom: 50px;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        section:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 4px 20px rgba(214, 11, 11, 0.681);
+        }
+
+        h2 {
+            color: #007bff;
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+            border-left: 5px solid #00bcd4;
+            padding-left: 10px;
+            text-align: center;
+        }
+
+        p {
+            font-size: 1rem;
+            text-align: justify;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            margin: 10px 0 20px 40px;
+            text-align: left;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: #00bcd4;
+        }
+
+        /* Footer */
+        footer {
+            background: linear-gradient(120deg, #007bff, #00bcd4);
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 50px;
+        }
+
+        footer p {
+            font-size: 0.9rem;
+            text-align: center;
+        }
+
+        .home-btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 25px;
+            background-color: #e6d700;
+            color: white;
+            border-radius: 25px;
+            text-decoration: none;
+            transition: 0.3s;
+            text-decoration: none;
+        }
+
+        .home-btn:hover {
+            background-color: #ba4c1198;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Search Engine Optimization (SEO) Starter Guide</h1>
+        <p>Google's official guide to help you understand and improve your site’s visibility in search results.</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#intro">Introduction</a>
+        <a href="#how-google-works">How Google Works</a>
+        <a href="#organize">Organize</a>
+        <a href="#content">Content</a>
+        <a href="#media">Media</a>
+        <a href="#promotion">Promotion</a>
+        <a href="#avoid">Avoid</a>
+        <a href="#next">Next Steps</a>
+    </nav>
+
+    <main>
+        <section id="intro">
+            <h2>Introduction</h2>
+            <p>
+                When you built your website, you likely created it with your users in mind, trying to make it easy for
+                them to find and explore your content. One of those users is a search engine, which helps people
+                discover your content.
+                SEO—short for search engine optimization—is about helping search engines understand your content,
+                and helping users find your site and decide whether they should visit it.
+            </p>
+            <p>
+                Following Google's <strong>Search Essentials</strong> increases your chances of appearing in search
+                results. This guide walks you through some of the most common and effective improvements you can make
+                on your site.
+            </p>
+        </section>
+
+        <section id="how-google-works">
+            <h2>How Google Search Works</h2>
+            <p>
+                Google uses automated crawlers to explore the web and index pages. You usually don’t need to do anything
+                beyond publishing your site. Most sites are added automatically.
+            </p>
+            <p>
+                However, you can speed up discovery and improve indexing through sitemaps, structured organization,
+                and well-written content. Learn more in Google's documentation about how Google discovers, crawls,
+                and serves web pages.
+            </p>
+        </section>
+
+        <section id="organize">
+            <h2>Organize Your Site</h2>
+            <p>
+                Structuring your website logically helps both users and search engines. Use clear navigation,
+                descriptive URLs, and avoid duplicate content. Group similar pages under directories and use redirects
+                or canonical tags to manage duplicates.
+            </p>
+            <ul>
+                <li>Use descriptive URLs (e.g., <em>example.com/pets/cats.html</em>).</li>
+                <li>Group related content in folders (e.g., <em>/policies/</em>, <em>/promotions/</em>).</li>
+                <li>Set canonical URLs to avoid confusion.</li>
+            </ul>
+        </section>
+
+        <section id="content">
+            <h2>Create High-Quality Content</h2>
+            <p>
+                Compelling, original, and useful content has the greatest impact on your site’s search presence.
+                Ensure your writing is clear, easy to read, and kept up to date.
+            </p>
+            <ul>
+                <li>Write for people, not search engines.</li>
+                <li>Keep your information fresh and relevant.</li>
+                <li>Provide expert and trustworthy insights.</li>
+            </ul>
+        </section>
+
+        <section id="media">
+            <h2>Use Media Effectively</h2>
+            <p>
+                Enhance your content with high-quality images and videos. Always include descriptive alt text and
+                captions. Place visuals near relevant text and ensure your files load quickly.
+            </p>
+        </section>
+
+        <section id="promotion">
+            <h2>Promotion and Engagement</h2>
+            <p>
+                Promote your website to increase discovery. Use social media, community engagement, and word of mouth.
+                Consistent, ethical promotion leads to long-term visibility.
+            </p>
+        </section>
+
+        <section id="avoid">
+            <h2>Things to Avoid</h2>
+            <ul>
+                <li>Meta keywords — Google ignores them.</li>
+                <li>Keyword stuffing — harms readability and violates spam policies.</li>
+                <li>Buying backlinks — can result in penalties.</li>
+                <li>Duplicate content — inefficient and confusing.</li>
+            </ul>
+        </section>
+
+        <section id="next">
+            <h2>Next Steps</h2>
+            <ul>
+                <li>Set up <a href="https://search.google.com/search-console" target="_blank">Google Search Console</a>.
+                </li>
+                <li>Monitor your SEO performance regularly.</li>
+                <li>Add structured data to enhance appearance in search results.</li>
+                <li>Follow the <a href="https://developers.google.com/search/blog" target="_blank">Google Search Central
+                        Blog</a> for updates.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <br>
+        <p>© 2025 SEO Starter Guide | Adapted from Google Search Central</p>
+        <a href="index.html" class="home-btn">Return to Homepage</a>
+    </footer>
+    
+
+</body>
+
+</html>

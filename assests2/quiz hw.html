@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Submission</title>
+    <style>
+        body {
+            font-family: "Poppins", sans-serif;
+            background: linear-gradient(120deg, #a1c4fd, #c2e9fb);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .thankyou-box {
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            max-width: 400px;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        h1 {
+            color: #0077b6;
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-size: 1.1rem;
+            color: #333;
+        }
+
+        .loading {
+            margin-top: 20px;
+            font-style: italic;
+            color: #555;
+        }
+
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #0077b6;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1.5s linear infinite;
+            margin: 15px auto;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .home-btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 25px;
+            background-color: #0077b6;
+            color: white;
+            border-radius: 25px;
+            text-decoration: none;
+            transition: 0.3s;
+            font-weight: 600;
+        }
+
+        .home-btn:hover {
+            background-color: #005f8f;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="thankyou-box">
+        <h1>✅ Thank You!</h1>
+        <p>Your quiz answers have been successfully submitted.</p>
+        <p>We'll review them and share your result within <strong>10 minutes</strong>.</p>
+
+        <div class="spinner"></div>
+        <p class="loading">Please wait patiently...</p>
+    </div>
+
+    <a href="index.html" class="home-btn">Return to Homepage</a>
+</body>
+</html>

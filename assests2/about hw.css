@@ -1,0 +1,196 @@
+/* ---------- Footer Styles ---------- */
+/* ===== Footer Styles ===== */
+.footer {
+    background-image: url("https://i.pinimg.com/736x/51/ea/e3/51eae3785b6ecefc34aa871963ebd59a.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 60px 40px 30px;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Left section */
+.footer-left {
+    flex: 1;
+    min-width: 220px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.logo .flower-icon {
+    font-size: 24px;
+    color: #ff5722;
+    margin-right: 8px;
+}
+
+.logo h1 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #222;
+}
+
+.flowers-img {
+    width: 180px;
+    margin-top: 10px;
+}
+
+/* Links section */
+.footer-links {
+    display: flex;
+    flex: 2;
+    justify-content: space-around;
+    min-width: 400px;
+}
+
+.footer-links h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 12px;
+    color: #000;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 8px;
+}
+
+.footer-links ul li a {
+    text-decoration: none;
+    color: #555;
+    transition: color 0.3s;
+}
+
+.footer-links ul li a:hover {
+    color: #000;
+}
+
+/* Bottom section */
+.footer-bottom {
+    max-width: 1200px;
+    margin: 30px auto 0;
+    padding-top: 20px;
+    border-top: 1px solid #ccc;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    color: #555;
+    font-size: 14px;
+}
+
+/* Social icons */
+.footer-social {
+    display: flex;
+    justify-content: center;
+    /* center icons horizontally */
+    align-items: center;
+    gap: 14px;
+    /* space between icons */
+    margin-top: 20px;
+}
+
+.footer-social a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+}
+
+.footer-social a:hover {
+    transform: scale(1.1);
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.25);
+}
+
+.footer-social img {
+    width: 24px;
+    height: 24px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+/* ========== NAVIGATION ========== */
+.navbar {
+    background-image: url("https://i.pinimg.com/736x/58/d7/4e/58d74edba52e03bff4529ce3546ecdbe.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 15px 0;
+    z-index: 10;
+}
+
+.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+    padding: 8px 15px;
+    border-radius: 6px;
+}
+
+.navbar a:hover {
+    background-image: url("https://i.pinimg.com/736x/40/b9/da/40b9daaead133a08e02978714914eeec.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+/* About Section */
+.about {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.about h2 {
+    color: #0984e3;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.about-img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin: 20px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.about p {
+    max-width: 700px;
+    margin: 10px auto;
+    font-size: 18px;
+    line-height: 1.6;
+}
